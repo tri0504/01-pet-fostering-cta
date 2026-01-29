@@ -1,0 +1,118 @@
+/* Site Header - Simple banner with site name */
+.site-header {
+  background-color: #0d5c6f;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Site Name - Displays the site title in white */
+.site-name {
+  margin: 0;
+  font-size: 28px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+/* CTA Section Container - Tall banner with background image and overlay */
+.cta-section {
+  background-image: linear-gradient(135deg, rgba(13, 92, 111, 0.7) 0%, rgba(26, 124, 122, 0.7) 100%), url('img/cta-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  text-align: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CTA Content Wrapper - Centers and constrains content width */
+.cta-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Main Heading - Large and bold to grab attention */
+.cta-heading {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Description Text - Secondary information in light teal */
+.cta-description {
+  font-size: 18px;
+  color: #e8f4f5;
+  margin-bottom: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* CTA Button - Bright teal, eye-catching button with rounded corners */
+.cta-button {
+  display: inline-block;
+  padding: 16px 40px;
+  background-color: #00d9d9;
+  color: #0d5c6f;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button Hover Effect - Slightly darker teal on hover */
+.cta-button:hover {
+  background-color: #00b8b8;
+}
+
+/* Fostering Info Section - Container for two-column layout */
+.fostering-info-section {
+  padding: 60px 20px;
+  background-color: #f5f9f9;
+}
+
+/* Info Container - Centered wrapper for columns */
+.info-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Info Column - Two evenly sized columns */
+.info-column {
+  flex: 1;
+}
+
+/* Info Image - Responsive image with border radius */
+.info-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Info Heading - Secondary heading in teal */
+.info-heading {
+  font-size: 32px;
+  color: #0d5c6f;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+/* Info Text - Body text with comfortable line height */
+.info-text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
